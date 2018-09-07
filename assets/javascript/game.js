@@ -38,10 +38,6 @@ document.onkeyup = function (event) {
             
         }
 
-        if (userguess != letterBank) {
-            alert (userGuess + " is not a letter!");
-        }
-
         else {
             guessesLeft--;
             document.getElementById("success").style.display = "none";
