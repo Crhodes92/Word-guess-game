@@ -1,4 +1,4 @@
-# Word-guess-game
+# Psychic Guess Game
 
 This project is a fun little game where you try to guess the exact word that a computer does
 
