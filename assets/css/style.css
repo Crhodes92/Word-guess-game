@@ -1,0 +1,92 @@
+body {
+    background-image:url(../images/connectwork/connectwork.png);
+    color: whitesmoke;
+    margin: 0 auto;
+    font-family: "Carter one", helvetica; 
+    font-size: 18px;
+}
+
+/*Top Bar*/
+
+nav {
+    background: #313131;
+    margin-bottom: 30px;
+    margin-left: 0px; 
+    height: 100px;
+    border-bottom: solid rgb(22, 22, 22);
+}
+
+#headingTitle {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;    
+    color: whitesmoke;
+}
+
+/*Content*/
+
+.container {
+    margin: 0 auto;
+    Padding: 30px;
+    background-color: #313131;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    height: 500px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    border-bottom: solid whitesmoke;
+    padding: 15px
+}
+
+#leftSection {
+    float: left;
+    width: 50%;
+    padding: 25px;
+    line-height: 1.5;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 225px;
+}
+
+#rightSection {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 25px;
+    line-height: 1.5;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    border-left: solid whitesmoke;
+    padding-bottom: 225px;
+}
+
+#success {
+    display: none;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    text-align: center
+}
+
+
+/*Footer*/
+
+footer {
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #313131;
+    text-align: center;
+}
+
+#copyright {
+    padding: 25px;
+    border-top: solid rgb(22, 22, 22);
+}
